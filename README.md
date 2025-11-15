@@ -34,43 +34,32 @@ Download from: https://nodejs.org
 ### 2️⃣ Create the project  
 npx create-react-app topic-search
 
-3️⃣ Replace the files inside src/ with the files from this project.
+### 3️⃣ Replace the files inside src/ with the files from this project.
 
-4️⃣ Start the app
+### 4️⃣ Start the app
 npm start
 App will open automatically at:
 http://localhost:3000
 
+## How It Works
 
-🧠 How It Works
-
-✔ Topic List
+### ✔ Topic List
 Topics are stored in data.js as an array of objects:
 { name: "React Basics", category: "Frontend" }
 
-
-✔ Filtering Logic
+### ✔ Filtering Logic
 
 As the user types, the list filters in real-time:
-
 Search includes (not exact match)
-
 Search is case-insensitive
-
 Empty input → show all topics
-
 No match → show “No topics found”
 
-
-✔ UI
+### ✔ UI
 
 Clean card layout
-
 Smooth hover animation
-
 Responsive grid
-
 Professional color palette
-
 Padding + rounded corners + shadows
 
