@@ -16,14 +16,23 @@ A clean, responsive, user-friendly component that displays a list of topics and 
 ## Project Structure
 
 topic-search/
+
 ├── src/
+
 │ ├── App.js
+
 │ ├── TopicSearch.js
+
 │ ├── styles.css
+
 │ ├── index.js
+
 │ └── data.js
+
 ├── package.json
+
 ├── README.md
+
 └── public/
 
 ##  Installation & Running
