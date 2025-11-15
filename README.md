@@ -82,6 +82,8 @@ Padding + rounded corners + shadows
 
 ## 🎥 Demo Video
 
+[▶️ Watch the Video](https://github.com/AshaKommana/Topic-Search/blob/main/Demo.mp4)
+
 [▶️ Click here to watch the demo](Demo.mp4)
 
 
