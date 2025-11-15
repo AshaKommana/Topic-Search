@@ -80,3 +80,6 @@ Professional color palette
 
 Padding + rounded corners + shadows
 
+## 🎥 Demo Video
+Click below to watch the project demo:
+Demo.mp4
