@@ -82,8 +82,6 @@ Padding + rounded corners + shadows
 
 ## 🎥 Demo Video
 
-<video src="Demo.mp4" width="600" controls></video>
-
 [▶️ Click here to watch the demo](Demo.mp4)
 
 
