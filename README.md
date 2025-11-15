@@ -50,16 +50,24 @@ Topics are stored in data.js as an array of objects:
 ### ✔ Filtering Logic
 
 As the user types, the list filters in real-time:
+
 Search includes (not exact match)
+
 Search is case-insensitive
+
 Empty input → show all topics
+
 No match → show “No topics found”
 
 ### ✔ UI
 
 Clean card layout
+
 Smooth hover animation
+
 Responsive grid
+
 Professional color palette
+
 Padding + rounded corners + shadows
 
