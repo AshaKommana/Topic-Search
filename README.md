@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# TopicSearch – React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, responsive, user-friendly component that displays a list of topics and allows users to filter them in real-time using a search bar. 
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Real-time search filtering** (case-insensitive)
+- **Responsive grid layout** for topic cards
+- **Attractive, modern UI** with soft shadows, spacing, and hover effects
+- **Shows all topics when search input is empty**
+- **Displays “No topics found”** when no match exists
+- **Fully accessible** (label, ARIA roles, semantic HTML)
+- **Simple, clean architecture**
+- **Zero external UI libraries** — pure React + CSS
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+topic-search/
+├── src/
+│ ├── App.js
+│ ├── TopicSearch.js
+│ ├── styles.css
+│ ├── index.js
+│ └── data.js
+├── package.json
+├── README.md
+└── public/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation & Running
 
-### `npm test`
+### 1️⃣ Install Node.js  
+Download from: https://nodejs.org
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2️⃣ Create the project  
+```bash
+npx create-react-app topic-search
 
-### `npm run build`
+3️⃣ Replace the files inside src/ with the files from this project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4️⃣ Start the app
+```bash
+npm start
+App will open automatically at:
+http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧠 How It Works
 
-### `npm run eject`
+✔ Topic List
+Topics are stored in data.js as an array of objects:
+{ name: "React Basics", category: "Frontend" }
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✔ Filtering Logic
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As the user types, the list filters in real-time:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Search includes (not exact match)
 
-## Learn More
+Search is case-insensitive
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Empty input → show all topics
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+No match → show “No topics found”
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+✔ UI
 
-### Analyzing the Bundle Size
+Clean card layout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Smooth hover animation
 
-### Making a Progressive Web App
+Responsive grid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Professional color palette
 
-### Advanced Configuration
+Padding + rounded corners + shadows
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
