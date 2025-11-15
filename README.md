@@ -82,4 +82,5 @@ Padding + rounded corners + shadows
 
 ## 🎥 Demo Video
 Click below to watch the project demo:
-Demo.mp4
+
+https://www.loom.com/share/bbd22d7d0cf945baae7f905fb711a8c3
