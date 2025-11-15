@@ -2,7 +2,7 @@
 
 A clean, responsive, user-friendly component that displays a list of topics and allows users to filter them in real-time using a search bar. 
 
-## 🚀 Features
+## Features
 
 - **Real-time search filtering** (case-insensitive)
 - **Responsive grid layout** for topic cards
@@ -13,7 +13,7 @@ A clean, responsive, user-friendly component that displays a list of topics and 
 - **Simple, clean architecture**
 - **Zero external UI libraries** — pure React + CSS
 
-## 📁 Project Structure
+## Project Structure
 
 topic-search/
 ├── src/
@@ -26,19 +26,17 @@ topic-search/
 ├── README.md
 └── public/
 
-## 🛠️ Installation & Running
+##  Installation & Running
 
 ### 1️⃣ Install Node.js  
 Download from: https://nodejs.org
 
 ### 2️⃣ Create the project  
-```bash
 npx create-react-app topic-search
 
 3️⃣ Replace the files inside src/ with the files from this project.
 
 4️⃣ Start the app
-```bash
 npm start
 App will open automatically at:
 http://localhost:3000
