@@ -83,7 +83,7 @@ Padding + rounded corners + shadows
 ## Github Repo Link: 
 https://github.com/AshaKommana/Topic-Search
 
-## 🎥 Demo Video
+## 🎥 Demo Video:
 
 [▶️ Click here to watch the demo](Demo.mp4)
 
